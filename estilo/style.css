@@ -41,7 +41,7 @@ a:hover {
 /***** NavBar *****/
 /*---------------*/
 .navbar {
-  background-color: #ff1520;
+  background-color: #2207539f;
 }
 
 .navbar-toggler:focus {
@@ -127,7 +127,7 @@ a.tm-text-primary:hover {
   padding: 40px 0;
 }
 .slide-content {
-  margin: 0 40px;
+  margin: 0 0px;
   /* overflow: hidden; */
   border-radius: 10px;
 }
@@ -176,11 +176,11 @@ a.tm-text-primary:hover {
 }
 
 .swiper-navBtn {
-  color: #ff1520;
+  color: #2207539f;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover {
-  color: #ff1520;
+  color: #2207539f;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after {
@@ -207,7 +207,7 @@ a.tm-text-primary:hover {
 /*---------------*/
 
 footer {
-  background-color: #ff1520;
+  background-color: #2207539f;
 }
 
 .tm-footer-links li {
@@ -221,7 +221,7 @@ footer {
 
 .tm-social-links li {
   list-style: none;
-  margin-right: 15px;
+  margin-right: 13px;
 }
 
 .tm-social-links li:last-child {
@@ -230,8 +230,8 @@ footer {
 
 .tm-social-links li a {
   color: #999999;
-  width: 44px;
-  height: 44px;
+  width: 30px;
+  height: 25px;
   display: flex;
   background-color: #fff;
   align-items: center;
@@ -240,7 +240,7 @@ footer {
 
 .tm-social-links li a:hover {
   color: #fff;
-  background-color: #009999;
+  background-color: #fff;
 }
 
 .tm-footer {
