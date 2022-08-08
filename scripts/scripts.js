@@ -1,13 +1,14 @@
-var swiper = new Swiper('.slide-content', {
+var swiper = new Swiper(".slide-content", {
   slidesPerView: 3,
   spaceBetween: 25,
   loop: true,
-  centerSlide: 'true',
-  fade: 'true',
-  grabCursor: 'true',
+  centerSlide: "true",
+  fade: "true",
+  grabCursor: "true",
+
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 
   breakpoints: {
@@ -23,6 +24,6 @@ var swiper = new Swiper('.slide-content', {
     1440: {
       slidesPerView: 4,
       loop: false,
-    }
-  }
-})
+    },
+  },
+});
