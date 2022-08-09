@@ -12,6 +12,17 @@ https://templatemo.com/tm-556-catalog-z
   box-sizing: border-box;
 }
 
+header{
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background:white;
+  text-align:center;
+  padding: 20px 0;
+}
+
 p {
   line-height: 1.5;
 }
