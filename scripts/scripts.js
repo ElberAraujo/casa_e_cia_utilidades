@@ -15,14 +15,17 @@ var swiper = new Swiper(".slide-content", {
     0: {
       slidesPerView: 1,
     },
-    768: {
+    500: {
       slidesPerView: 2,
     },
-    1100: {
+    768: {
       slidesPerView: 3,
     },
-    1440: {
+    1100: {
       slidesPerView: 4,
+    },
+    1440: {
+      slidesPerView: 5,
       loop: false,
     },
   },
