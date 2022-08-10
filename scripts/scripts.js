@@ -14,15 +14,19 @@ var swiper = new Swiper(".slide-content", {
   breakpoints: {
     0: {
       slidesPerView: 1,
+      loop: false,
     },
     500: {
       slidesPerView: 2,
+      loop: false,
     },
     768: {
       slidesPerView: 3,
+      loop: false,
     },
     1100: {
       slidesPerView: 4,
+      loop: false,
     },
     1440: {
       slidesPerView: 5,
